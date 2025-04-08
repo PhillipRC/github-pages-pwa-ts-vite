@@ -1,0 +1,24 @@
+{
+  "name": "github-pages-pwa-ts-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "homepage": "https://philliprc.github.io/github-pages-pwa-ts-vite",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.11",
+    "vite-plugin-pwa": "^0.21.1",
+    "workbox-window": "^7.3.0"
+  },
+  "overrides": {
+    "sharp": "0.32.6",
+    "sharp-ico": "0.1.5"
+  }
+}
