@@ -43,7 +43,7 @@ jobs:
       - name: Save build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: dist
           retention-days: 1
 
   deploy:
